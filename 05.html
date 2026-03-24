@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Week 5</title>
+<link href="https://web.pdx.edu/~gerbing/css/content.css" rel="stylesheet" type="text/css"  />
+</head>
+
+<body>
+<!--
+<h1 style="margin-bottom: 1em;">Week 5</h1>
+
+<h2>Final or a Project for Week 5 or Two Languages on the Homework</h2>
+<p>
+You choose if you wish to take the Final or do a project, or have done two languages on the homework. I would expect that either of the first two choices should take about the same amount of time, 1/2 to 3/4 of a day. For the Final you would spend that time studying the short-answer questions from the four weeks and the malformed data structure in Week 2, and probably about 1/2 hour to take test when you are ready. For the project you would select some data and repeat the R or Python instructions on the data.</p>
+
+<p>These choices also let you focus on the type of material you find most useful. The Final focuses only on concepts with no computer coding or memorization. The project focuses on implementing the concepts, though again no memorization because that task is open book.
+
+<p>Grades are not due until the end of the term even though the course ends at the end of Week 5. That said, likely to your advantage to finish the course at that time. However, you can best manage your own life, so "Week 5" can extend beyond Week 5 if you really prefer. For example, not all of you are taking the follow-up 523 course so you may have an opening in your schedule as a result.
+</p>
+
+<h3>Final</h3>
+
+<p>
+The Final consists of two parts.
+</p>
+
+
+<ul>
+	<li style="margin-top: .5em;">About two randomly selected short answer questions from each of the first four weeks, eight to ten questions total.</li>
+	<li>An example of a badly formatted data table in which you list the mal-formed data that would prevent analysis.</li>
+</ul>
+
+<p>
+The example of mal-formed data from which to study is from the end of the Week 2 document:
+<a href="https://web.pdx.edu/~gerbing/522/Week2/DataFrame/DataFrame.html">Data Frames</a>. One of the best advice to people who provide the data to the data science team is to make sure the data is properly formatted for analysis.
+</p>
+
+<p>
+Because all the questions on the Final are given in advance of the test, complete with solutions, the Final is necessarily closed book, taken with Proctorio.
+</p>
+
+ -->
+
+
+
+<h3>Project</h3>
+
+<p>
+The goal is to demonstrate data analysis skills required of virtually any data analysis project. Show this by doing the following data manipulations as well as a narrative that describes what you are doing at each step as you proceed. You only need to do a data manipulation one time with the syntax from the package of your choice.
+</p>
+
+
+<ol>
+
+	<li>The easiest way to document your work is to do all R or Pandas instructions as a markdown file to document your work and write to a Word doc. Or, copy your R or Pandas instructions and output into a Word doc.</li>
+
+	<li>Describe your data.
+    <ul>
+    <li style="margin-top: .5em;">Brief paragraph description.</li>
+    <li>A <a href="https://web.pdx.edu/~gerbing/522/Week2/CodeBook.html"> codebook</a> that describes the data (at least the variables of interest).</li>
+    </ul>
+	</li>
+
+	<li>Set up and document an R project (or Jupyter Notebook) and directory structure for the analysis.</li>
+
+	<li>Read the data into R or Python.
+    <ul>
+      <li style="margin-top: .5em;">Describe the conceptual data type of each variable of interest.</li>
+      <li>Describe the storage type within the computer of each variable of interest.</li>
+    </ul>
+
+	</li>
+
+	<li>Do any needed data cleaning such as making categorical responses consistent for a variable, not M, m, Male, and Man for responses to the male gender. Verify that each categorical variable in your analysis has "clean" data, such as with a bar chart.</li>
+
+	<li>Convert all categorical variables of interest, integer or character value, to factors (R) or type category (Pandas).</li>
+
+	<li>Do some other variable transformations, even if just changing units for continuous variables or recoding the levels of categorical variables.</li>
+
+	<li>Subset the full data set to just variables of interest.</li>
+
+	<li>Write the cleaned data to a feather file into the data folder for reading back into R or Pandas for the actual data analysis.</li>
+
+	<li>For merging, either read two different data sets into R or Pandas data frames with a common variable and merge. Or, artificially create two data sets by doing a subsetting by moving some variables into one new data frame and the remaining variables into the other newly created data frame. Then merge back into a single data frame as if the data had arrived in separate files. Following that procedure provides examples of both subsetting and merging data frames.</li>
+
+	<li>Data Analysis I: Display a bar chart or histogram for at least several variables of interest, and comment.</li>
+
+	<li>Data Analysis II: Do a data aggregation and interpret.</li>
+
+</ol>
+
+<p>Avoid the data dumps! At most you only need to show five or so records after a data manipulation. No need to display pages of data.</p>
+
+<p><strong>Turn In</strong>: A single .html or .docx file that contains the above steps, with the R input and abbreviated output.</p>
+
+</body>
+</html>
