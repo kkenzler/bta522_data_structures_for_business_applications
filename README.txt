@@ -30,3 +30,8 @@ Why it matters in a portfolio:
 Primary artifacts:
   The project PDF is the current deliverable.
   The downloads folder is the practical evidence of the underlying source-data scope.
+
+## Technical Context
+
+Detailed operating notes, agent handoffs, and review context live under `_orchestration\`. Start with `_orchestration\DEVOPS.md` when present.
+
