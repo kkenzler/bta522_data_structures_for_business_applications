@@ -2,7 +2,7 @@
 onenote_page: repo_bta522
 repo_path: C:\Users\kadek\source\repos\schoolPortfolio\bta522_data_structures_for_business_applications
 last_updated: 2026-07-12
-last_synced: 2026-08-03T03:25:30
+last_synced: 2026-08-05T03:20:11
 ---
 
 # repo_bta522
